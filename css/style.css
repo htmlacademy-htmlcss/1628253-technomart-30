@@ -33,7 +33,6 @@
     --scale-active: #00CA74;
     --border-grey: #E5E5E5;
     --modal-bg: #F4F4F4;
-
     /*RGB*/
     --shadow-red: rgba(0, 0, 0, 0.24);
     --special-white-alpha: rgba(255, 255, 255, 0.3);
@@ -456,6 +455,8 @@ img {
     margin-left: 25px;
 }
 
+/* Список услуг */
+
 .products {
     margin-top: 59px;
     display: grid;
@@ -700,6 +701,8 @@ img {
     margin-top: 97px;
 }
 
+/* Популярные товары */
+
 .popular-goods-header {
     display: flex;
     background-color: var(--main-bg-grey);
@@ -936,6 +939,8 @@ img {
     border-radius: 2px;
 }
 
+/* Популярные производители */
+
 .popular-manufacturers-header {
     display: flex;
     background-color: var(--main-bg-grey);
@@ -991,6 +996,8 @@ img {
     box-shadow: 0 4px 20px var(--link-shadow);
     opacity: 0.5;
 }
+
+/* Нижний слайдер */
 
 .services {
     width: auto;
@@ -1146,6 +1153,8 @@ img {
 .services-slider-current {
     display: block;
 }
+
+/* Дополнительная информация */
 
 .information {
     margin-top: 124px;
@@ -1362,7 +1371,7 @@ img {
     margin-top: 0;
 }
 
-/* Inner page */
+/* Внутренняя страница */
 
 .info-logout {
     margin-top: 4px;
@@ -1691,8 +1700,8 @@ img {
 
 .filter-cost-from::-webkit-outer-spin-button,
 .filter-cost-from::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .filter-cost-span {
@@ -2123,6 +2132,10 @@ img {
     background-color: var(--basic-white);
 }
 
+.modal-iframe {
+    border: none;
+}
+
 .modal-order {
     display: none;
     width: 620px;
@@ -2224,20 +2237,20 @@ img {
     0% {
       -webkit-transform: translateX(-2000px);
               transform: translateX(-2000px);
-}
+    }
 
     70% {
       -webkit-transform: translateX(30px);
               transform: translateX(30px);
-}
+    }
 
     90% {
       -webkit-transform: translateX(-10px);
               transform: translateX(-10px);
-}
+    }
 
     100% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
-}
+    }
 }
